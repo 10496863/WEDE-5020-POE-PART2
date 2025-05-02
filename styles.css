@@ -1,0 +1,151 @@
+
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:century;
+}
+
+ header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)rgba(0,0,0,0.5)rgba(0,0,0,0.5)), url("car.jpg");
+  height: 100vh;
+  background-position: cover;
+  background-position: center;
+  min-height: 100px;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 17px;
+
+}
+
+ul li{
+   display:inline-block;
+}
+    
+ul li a{
+  text-decoration: none;
+  color: #c582af;
+  padding: 5px 20px;
+  border: 1px rgb(237, 243, 220);
+  transition: 0.5 ease;
+}
+
+ul li a:hover{
+  background-color: rgb(71, 90, 73);
+  color:#c58ddb
+}
+
+ul li.active a{
+  background-color: rgb(71, 90, 73);
+  color:#c58ddb
+
+}
+
+.logo img{
+  float: left;
+  width: 250px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+
+}
+.title{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #c582af;
+  font-size: 70px;
+
+}
+
+.button{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px rgb(175, 127, 145);
+  padding: 5px 20px;
+  color: #c582af ;
+  transition: 0.5 ease;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+btn :hover{
+  background-color: rgb(180, 179, 88);
+  color: #c582af;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  padding: 10px; /* Padding around the footer */
+  text-align: center; /* Center text */
+}
+
+.footer-links a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.styled-paragraph {
+  font-size: 18px; 
+  color: #34338d; 
+  line-height: 1.5; 
+  text-align: justify; 
+  margin: 20px 0; 
+  padding: 10px; 
+  background-color: #f9f9f9; 
+  border-left: 5px solid #007BFF; 
+}
+.centered-heading {
+  text-align: center; 
+  font-size: 24px; 
+  color: #ff9999; 
+  margin: 20px 0; 
+}
+
+.subscribe-button{
+  background-color:aqua;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
