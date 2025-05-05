@@ -1,7 +1,4 @@
 
-
-
-
 *{
   margin: 0px;
   padding: 0px;
@@ -9,11 +6,12 @@
 }
 
  header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)rgba(0,0,0,0.5)rgba(0,0,0,0.5)), url("car.jpg");
+  
   height: 100vh;
   background-position: cover;
   background-position: center;
   min-height: 100px;
+  background-repeat: no-repeat;
 }
 ul{
   float: right;
@@ -31,9 +29,9 @@ ul li{
     
 ul li a{
   text-decoration: none;
-  color: #c582af;
+  color: #020101;
   padding: 5px 20px;
-  border: 1px rgb(237, 243, 220);
+  border: 1px rgb(36, 37, 33);
   transition: 0.5 ease;
 }
 
@@ -48,7 +46,7 @@ ul li.active a{
 
 }
 
-.logo img{
+.logo-R{
   float: left;
   width: 250px;
   height: auto;
@@ -134,18 +132,127 @@ footer {
   margin: 20px 0; 
 }
 
-.subscribe-button{
-  background-color:aqua;
-  color: white;
-  border: none;
-  height: 36px;
-  width: 105px;
-  border-radius: 2px;
-  cursor: pointer;
+
+
+/* General body styles */
+body {
+  margin: 20px;
+  font-family: 'Arial', sans-serif; /* Font family for the entire document */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Line height for better readability */
 }
 
-.button-links a:hover {
-  text-decoration: underline; /* Underline on hover */
+/* Styles for h1 headings */
+h1 {
+  font-weight: bold; /* Bold text */
+  color: #2c3e50; /* Dark blue color for headings */
+  border-bottom: 2px solid #3498db; /* Bottom border for emphasis */
+  padding-bottom: 10px; /* Space below the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2rem; /* Font size for headings */
+}
+
+/* Styles for unordered lists */
+ul {
+  list-style-type: square; /* Square bullets for list items */
+  padding-left: 20px; /* Indentation for the list */
+  margin-bottom: 40px; /* Space below the list */
+}
+
+/* Styles for list items */
+li {
+  padding: 5px 0; /* Space above and below each list item */
+  font-size: 1.1rem; /* Font size for list items */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for list items */
+li:hover {
+  color: #3498db; /* Change text color on hover */
+  transform: translateX(5px); /* Slightly move the item to the right on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  body {
+      margin: 10px; /* Reduce margin on smaller screens */
+  }
+  h1 {
+      font-size: 1.5rem; /* Smaller font size for headings */
+      margin-bottom: 15px; /* Reduce space below headings */
+  }
+  ul {
+      padding-left: 15px; /* Reduce indentation for lists */
+  }
+  li {
+      font-size: 1rem; /* Smaller font size for list items */
+  }
 }
 
 
+
+
+
+
+
+
+
+
+/* Heading styles */
+h2 {
+  color: #1a73e8;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  border-bottom: 3px solid #1a73e8;
+  padding-bottom: 6px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+/* Section #about styles */
+#about {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 650px;
+  margin-top: 40px;
+}
+
+/* Responsive typography and spacing */
+@media (max-width: 600px) {
+  body {
+    margin: 12px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 18px;
+  }
+  #about {
+    padding: 15px 18px;
+    margin-top: 30px;
+  }
+}
+
+
+.table-container {
+  max-height: 400px; /* Set a height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0; /* Stick to the top of the container */
+  background-color: #fff; /* Background color to avoid overlap */
+  z-index: 10; /* Ensure it stays above other content */
+}
