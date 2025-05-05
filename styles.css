@@ -18,8 +18,8 @@ ul{
   list-style-type: none;
   margin-top: 30px;
   min-height: 400px;
-  margin-right: 60px;
-  font-size: 17px;
+  margin-right: 40px;
+  font-size: 16px;
 
 }
 
@@ -45,12 +45,27 @@ ul li.active a{
   color:#c58ddb
 
 }
-
-.logo-R{
-  float: left;
-  width: 250px;
-  height: auto;
+.logo-container {
+  text-align:none; /* Center the logo */
+  margin-top: 20px;  /* Add some space above */
 }
+
+.logo {
+  float: left;
+  width: 250px;      /* Set the width of the logo */
+  height: auto;      /* Maintain aspect ratio */
+}
+
+.logo-container {
+  width: 150px;                     /* Set the width of the logo container */
+  height: 150px;                    /* Set the height of the logo container */
+  background-image: url('OIP.jpg'); 
+  background-size: contain;         /* Scale the image to fit the container */
+  background-repeat: no-repeat;     /* Prevent the image from repeating */
+  background-position: center;      /* Center the image */
+  margin: 20px auto;                /* Center the container */
+}
+
 
 .main{
   max-width: 1200px;
@@ -221,7 +236,7 @@ p {
   background-color: #ffffff;
   padding: 20px 25px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 121, 177, 0.1);
   max-width: 650px;
   margin-top: 40px;
 }
@@ -256,3 +271,266 @@ p {
   background-color: #fff; /* Background color to avoid overlap */
   z-index: 10; /* Ensure it stays above other content */
 }
+
+body, h1, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+.service {
+  max-width: 600px;
+  background: #fff;
+  padding: 25px 30px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+h1 {
+  color: #1e90ff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 5px;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+        
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+#contact h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#contact p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+    
+}
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #2c3e50;
+      text-transform: capitalize;
+      letter-spacing: 1.2px;
+    }
+
+    .btn-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      max-width: 350px;
+    }
+
+    button {
+      flex: 1 1 140px;
+      padding: 15px 0;
+      border: none;
+      border-radius: 35px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      color: white;
+    }
+
+    button.subscribe {
+      background-color: #007bff;
+      box-shadow: 0 4px 10px rgba(0,123,255,0.4);
+    }
+
+    button.subscribe:hover {
+      background-color: #0056b3;
+      box-shadow: 0 6px 15px rgba(0,86,179,0.6);
+    }
+
+    button.join {
+      background-color: #28a745;
+      box-shadow: 0 4px 10px rgba(40,167,69,0.4);
+    }
+
+    button.join:hover {
+      background-color: #1e7e34;
+      box-shadow: 0 6px 15px rgba(30,126,52,0.6);
+    }
+
+    /* Responsive for small screens */
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+
+      button {
+        flex: 1 1 100%;
+      }
+    }
+      
+    .sub-link{
+      display: none;
+      top: 6%;
+      position: relative;
+
+    }
+
+    .sub-menu ul{
+      position: absolute;
+    }
+
+  /* Base Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Headings */
+  h2 {
+    color: #6a2c70; /* deep purple */
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    color: #4b4e6d;
+    font-weight: 700;
+    margin: 25px 0 12px 0;
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    color: #3c3f58;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  /* Centered heading with distinct style */
+  .centered-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #a64ca6; /* mauve */
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+
+  /* Paragraphs */
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: justify;
+  }
+
+  /* Styled paragraph touch */
+  .styled-paragraph {
+    background-color: #fcf8ff;
+    border-left: 6px solid #a64ca6;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  /* Image */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(102, 51, 102, 0.3);
+  }
+
+  /* Clear floats after content */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Base Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  /* Headings */
+  h2 {
+    color: #6a2c70; /* deep purple */
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  h3 {
+    color: #4b4e6d;
+    font-weight: 700;
+    margin: 25px 0 12px 0;
+    font-size: 1.5rem;
+  }
